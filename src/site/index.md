@@ -1,11 +1,18 @@
 ---
-title: EleventyOne
-subtitle: A project scaffold for getting building with Eleventy quickly.<br /> Made by <a href="https://twitter.com/philhawksworth">Phil</a> for <a href="https://twitter.com/philhawksworth">Phil</a>, but perhaps you might also find it useful.
+title:
+subtitle:
 layout: layouts/base.njk
 ---
 
+<img class="logo" src="/images/hearme-logo-site.png" alt="">
 
-## This site is a starting point
+HearMe is a life saving service that combats domestic abuse. A fusion of technology, AI and community awareness allows neighbors and by-passers to easily and anonymously report distress-indicating noises/voices to municipal authorities. And by doing so, save lives.
+
+Often those hearing or witnessing domestic violence can’t be sure, or feel confident that a call to the police is needed. This ambiguity can mean that vital intervention at a critical stage can be missed and lives can be lost unnecessarily.
+
+HearMe takes away this ambiguity by passing the responsibility to the trained municipal authorities, taking the onus from the general public to make an official police report.
+
+<!-- ## This site is a starting point
 
 From this point we should already have:
 
@@ -15,11 +22,11 @@ From this point we should already have:
 - A tiny inline JS pipeline. (<a href="#" class="btn-log">Test a console.log message</a>)
 - JS [search index](/search.json) generator
 - [Netlify Dev](https://www.netlify.com/products/dev) for testing [Netlify redirects](https://netlify.com/docs/redirects/)
-- Serverless (FaaS) development pipeline with [Netlify Dev](https://www.netlify.com/products/dev) and [Netlify Functions](https://www.netlify.com/products/functions)
+- Serverless (FaaS) development pipeline with [Netlify Dev](https://www.netlify.com/products/dev) and [Netlify Functions](https://www.netlify.com/products/functions) -->
 
 
 
-## Post pages
+<!-- ## Post pages
 
 The pages found in in the posts
 
@@ -83,7 +90,7 @@ A serverless functions pipeline is included via Netlify Dev. By running `netlify
 Netlify's Redirects API can provide friendlier URLs as proxies to these URLs.
 
 - [/api/hello](/api/hello)
-- [/api/fetch-joke](/api/fetch-joke)
+- [/api/fetch-joke](/api/fetch-joke) -->
 
 
 
