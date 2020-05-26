@@ -204,6 +204,16 @@ footer {
 
 /* SITE */
 .logo {
+  width: auto;
+  max-width: 100%;
+  max-height: 220px;
+
+  @media (min-width: $mid) {
+    margin-left: -35px;
+  }
+}
+
+.image-full {
   width: 100%;
   max-width: 100%;
 }

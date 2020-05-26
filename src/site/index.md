@@ -4,7 +4,7 @@ subtitle:
 layout: layouts/base.njk
 ---
 
-<img class="logo" src="/images/hearme-logo-site.png" alt="">
+<img class="logo" src="/images/hearme-logo-white-left@2x.png" alt="">
 
 HearMe is a life saving service that combats domestic abuse. A fusion of technology, AI and community awareness allows neighbors and by-passers to easily and anonymously report distress-indicating noises/voices to municipal authorities. And by doing so, save lives.
 
