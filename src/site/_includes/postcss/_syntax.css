@@ -6,7 +6,7 @@
  code[class*="language-"],
  pre[class*="language-"] {
      color: rgb(42, 65, 77);
-     font-family: "Consolas", "Bitstream Vera Sans Mono", "Courier New", Courier, monospace;
+     font-family: "Roboto", "Bitstream Vera Sans Mono", "Courier New", Courier, monospace;
      direction: ltr;
      text-align: left;
      white-space: pre;

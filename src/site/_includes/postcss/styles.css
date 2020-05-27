@@ -1,5 +1,6 @@
 @import '_variables.css';
 @import '_syntax.css';
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
 
 * {
   margin: 0;
@@ -23,7 +24,7 @@ body {
   text-align: center;
   background-color: $page-color;
   color: mix($text-color, $page-color, 90%);
-  font-family: sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 300;
   font-size: 16px;
   line-height: 1.8;
@@ -216,4 +217,5 @@ footer {
 .image-full {
   width: 100%;
   max-width: 100%;
+  border-radius: 4px;
 }
