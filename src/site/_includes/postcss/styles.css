@@ -1,6 +1,7 @@
 @import '_variables.css';
 @import '_syntax.css';
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap');
 
 * {
   margin: 0;
@@ -50,14 +51,15 @@ body {
   };
 }
 
-
 h1, h2, h3 {
-  color: $text-color;
-  font-weight: 600;
-  margin-top: 2em;
-  margin-bottom:0.2em;
-  line-height: 1;
+    color: $text-color;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    margin-top: 2em;
+    margin-bottom:0.2em;
+    line-height: 1;
 }
+
 h1 {
   font-size: 3em;
   margin-top:0.4em;
@@ -65,10 +67,10 @@ h1 {
   line-height: 1;
 
   @media (min-width: $mid) {
-    font-size: 5em;
+    font-size: 4em;
   };
   @media (min-width: $wide) {
-    font-size: 6em;
+    font-size: 5em;
   };
 }
 
@@ -80,7 +82,7 @@ p {
 .subtitle {
   font-size: 1.2em;
   margin-top: 1em;
-  margin-bottom: 5em;
+  margin-bottom: 2.5em;
 }
 
 ul, ol {
@@ -187,7 +189,7 @@ footer {
   border-top-width: 1px;
   border-top-style: solid;
   border-top-color: rgba(255,255,255, 0.3);
-  font-size: 0.7em;
+  font-size: 0.8em;
   color: $text-color;
 
   a:link,
@@ -204,7 +206,7 @@ footer {
 
 
 /* SITE */
-.logo {
+.image-offset {
   width: auto;
   max-width: 100%;
   max-height: 220px;
@@ -218,4 +220,78 @@ footer {
   width: 100%;
   max-width: 100%;
   border-radius: 4px;
+}
+
+.header-container {
+    display: block;
+    background-color: rgba(0,0,0, 0.2);
+
+    header {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        padding: 24px 0;
+
+        @media (min-width: $mobile) {
+            flex-direction: row;
+            margin-top: 0;
+        }
+
+        .logo {
+            margin-right: 16px;
+
+            @media (min-width: $narrow) {
+                margin-right: 24px;
+            }
+
+            img {
+                height: 40px;
+
+                @media (min-width: $narrow) {
+                    height: 50px;
+                }
+            }
+        }
+
+        ul {
+            display: flex;
+            align-items: center;
+            list-style-type: none;
+            padding: 0;
+
+            @media (max-width: $mobile) {
+                margin-top: 16px;
+            }
+
+        }
+
+        li {
+            margin-right: 12px;
+            font-family: 'Rubik', sans-serif;
+            font-size: 16px;
+            font-weight: 400;
+            text-transform: uppercase;
+
+            @media (min-width: $mobile) {
+                margin-right: 24px;
+                font-size: 18px;
+            }
+
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+
+        a {
+            display: flex;
+            align-items: center;
+            border-bottom: none;
+            transition: color 0.2s ease-in;
+
+            &:hover {
+                color: rgba(255,255,255, 0.8);
+            }
+        }
+    }
 }
