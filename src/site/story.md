@@ -1,8 +1,8 @@
 ---
 title: HearMe Story
 layout: layouts/base.njk
-subtitle: Subtitle
+subtitle: Where it all started
 ---
 
-The HearMe app combines advanced audio processing techniques and AI, to assist authorities in assessing domestic violence risk level in reported households. Using the recorded and reported audio, authorities will be able to take appropriate action according to the risk level assigned, and in doing so take away the obstacle of police reporting from the witness.
+HearMe was created during Safe@Home Hackaton orginized by <a href="https://en.michalsela.org.il/" target="_blank">Michal Sela Forum</a> powered by <a href="https://www.safeathome.in.dev/">in.dev</a>. The team behined was formed by Raz Malka and include Itizik Mizrahi, Anna Li Yaron, Tami Shlasky Nachalon, Nitzan Regev-Sanders, Doron Mishli and Yaron Pur.
 

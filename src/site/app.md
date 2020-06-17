@@ -1,7 +1,7 @@
 ---
 title: HearMe App
 layout: layouts/base.njk
-subtitle: Subtitle
+subtitle: How it works
 ---
 
 The HearMe app combines advanced audio processing techniques and AI, to assist authorities in assessing domestic violence risk level in reported households. Using the recorded and reported audio, authorities will be able to take appropriate action according to the risk level assigned, and in doing so take away the obstacle of police reporting from the witness.
@@ -16,4 +16,4 @@ Next, through using other metadata such as neighborhood, history calls and voice
 
 When a red risk level is assigned, the police will be called to the location immediately. Under amber risk level authorities can begin taking preventative and confidential actions such as attempting to contact the victim or provide them with helpful information covertly over social media, for example. A green risk level doesn’t trigger any action, but the call is saved in the HearMe Database for future analysis.
 
-In summary, through analyzing users’ recordings, and using their location the HearMe app can help detect domestic violence situations and ultimately save lives using minimal and non-invasive resources.
+<h3>In summary, through analyzing users’ recordings, and using their location the HearMe app can help detect domestic violence situations and ultimately save lives using minimal and non-invasive resources.</h3>
