@@ -1,6 +1,8 @@
 ---
 title:
 subtitle:
+seotitle: HearMe | Record. Report. Save Lives
+seodesc: HearMe is a life saving service that combats domestic abuse. Created during Safe@Home Hackaton orginized by Michal Sela Forum.
 layout: layouts/base.njk
 ---
 

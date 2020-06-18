@@ -4,7 +4,11 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/styles.css">
-    <title>{{ title }}</title>
+    <title>{{ seotitle }}</title>
+
+    {%- if seodesc %}
+    <meta name="description" content="{{seodesc}}">
+    {% endif %}
 
     <!-- favicon -->
     <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-touch-icon.png">

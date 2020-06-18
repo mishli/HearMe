@@ -2,8 +2,9 @@
 title: HearMe Tech
 layout: layouts/base.njk
 subtitle: Behind the scenes
+seotitle: The Tech | HearMe
+seodesc:
 ---
-
 
 HearMe combines advanced audio processing techniques and AI, to assist authorities in assessing domestic violence risk level in reported locations.​
 
