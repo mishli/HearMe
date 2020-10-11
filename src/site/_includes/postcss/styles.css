@@ -248,6 +248,7 @@ footer {
     display: flex;
     margin-top: 60px;
     padding: 24px;
+    border-radius: 4px;
     background: rgba(68,68,68, 0.4);
 
     h3 {
