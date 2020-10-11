@@ -137,7 +137,7 @@ pre {
 
 
 footer {
-  margin-top: 6em;
+  margin-top: 3em;
   padding-top: 4em;
   padding-bottom: 6em;
   border-top-width: 1px;
@@ -240,5 +240,51 @@ footer {
                 color: rgba(255,255,255, 0.8);
             }
         }
+    }
+}
+
+/* zoho */
+.zoho-signup-container {
+    display: flex;
+    margin-top: 60px;
+    padding: 24px;
+    background: rgba(68,68,68, 0.4);
+
+    h3 {
+        margin: 0 0 16px 0;
+    }
+}
+
+.zoho-signup {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.input-signup {
+    width: 100%;
+    margin: 8px 16px 0 0;
+    padding: 12px 8px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+
+    @media (min-width: $narrow) {
+        width: 240px;
+    }
+}
+
+.button-signup {
+    margin-top: 8px;
+    padding: 12px 24px;
+    background-color: #5F50A3;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+
+    &:hover {
+        background-color:  $accent-color;
     }
 }
